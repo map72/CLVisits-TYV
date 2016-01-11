@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB09D7151C275CCA0054A27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7141C275CCA0054A27D /* AppDelegate.swift */; };
+		FB09D7171C275CCA0054A27D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7161C275CCA0054A27D /* MapViewController.swift */; };
+		FB09D7191C275CCA0054A27D /* DataPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7181C275CCA0054A27D /* DataPointsViewController.swift */; };
+		FB09D71C1C275CCA0054A27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09D71A1C275CCA0054A27D /* Main.storyboard */; };
+		FB09D71E1C275CCA0054A27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB09D71D1C275CCA0054A27D /* Assets.xcassets */; };
+		FB09D7211C275CCA0054A27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB09D71F1C275CCA0054A27D /* LaunchScreen.storyboard */; };
+		FB09D72C1C275CCA0054A27D /* CLVisit_TYVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D72B1C275CCA0054A27D /* CLVisit_TYVTests.swift */; };
+		FB09D7371C275CCA0054A27D /* CLVisit_TYVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7361C275CCA0054A27D /* CLVisit_TYVUITests.swift */; };
+		FB09D7461C275FE60054A27D /* VisitModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7441C275FE60054A27D /* VisitModel.xcdatamodeld */; };
+		FB09D7481C2760EF0054A27D /* Visit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7471C2760EF0054A27D /* Visit+CoreDataProperties.swift */; };
+		FB09D74A1C2760FC0054A27D /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09D7491C2760FC0054A27D /* Visit.swift */; };
+		FBCD3C0B1C440D8800D7957E /* com.crashlytics.missing-devices.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBCD3C0A1C440D8800D7957E /* com.crashlytics.missing-devices.txt */; };
+		FBE86B1B1C3C0A0600504F70 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE86B191C3C0A0600504F70 /* Fabric.framework */; };
+		FBE86B1C1C3C0A0600504F70 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE86B1A1C3C0A0600504F70 /* Crashlytics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB09D7281C275CCA0054A27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB09D7091C275CCA0054A27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB09D7101C275CCA0054A27D;
+			remoteInfo = "CLVisit TYV";
+		};
+		FB09D7331C275CCA0054A27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB09D7091C275CCA0054A27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB09D7101C275CCA0054A27D;
+			remoteInfo = "CLVisit TYV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB09D7111C275CCA0054A27D /* CLVisit TYV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CLVisit TYV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09D7141C275CCA0054A27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB09D7161C275CCA0054A27D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FB09D7181C275CCA0054A27D /* DataPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPointsViewController.swift; sourceTree = "<group>"; };
+		FB09D71B1C275CCA0054A27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB09D71D1C275CCA0054A27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB09D7201C275CCA0054A27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB09D7221C275CCA0054A27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB09D7271C275CCA0054A27D /* CLVisit TYVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CLVisit TYVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09D72B1C275CCA0054A27D /* CLVisit_TYVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLVisit_TYVTests.swift; sourceTree = "<group>"; };
+		FB09D72D1C275CCA0054A27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB09D7321C275CCA0054A27D /* CLVisit TYVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CLVisit TYVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09D7361C275CCA0054A27D /* CLVisit_TYVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLVisit_TYVUITests.swift; sourceTree = "<group>"; };
+		FB09D7381C275CCA0054A27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB09D7451C275FE60054A27D /* VisitModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VisitModel.xcdatamodel; sourceTree = "<group>"; };
+		FB09D7471C2760EF0054A27D /* Visit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Visit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FB09D7491C2760FC0054A27D /* Visit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		FBCD3C0A1C440D8800D7957E /* com.crashlytics.missing-devices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "com.crashlytics.missing-devices.txt"; sourceTree = "<group>"; };
+		FBE86B191C3C0A0600504F70 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		FBE86B1A1C3C0A0600504F70 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB09D70E1C275CCA0054A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE86B1C1C3C0A0600504F70 /* Crashlytics.framework in Frameworks */,
+				FBE86B1B1C3C0A0600504F70 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D7241C275CCA0054A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D72F1C275CCA0054A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB09D7081C275CCA0054A27D = {
+			isa = PBXGroup;
+			children = (
+				FBCD3C0A1C440D8800D7957E /* com.crashlytics.missing-devices.txt */,
+				FB09D7471C2760EF0054A27D /* Visit+CoreDataProperties.swift */,
+				FB09D7491C2760FC0054A27D /* Visit.swift */,
+				FBE86B191C3C0A0600504F70 /* Fabric.framework */,
+				FBE86B1A1C3C0A0600504F70 /* Crashlytics.framework */,
+				FB09D7131C275CCA0054A27D /* CLVisit TYV */,
+				FB09D72A1C275CCA0054A27D /* CLVisit TYVTests */,
+				FB09D7351C275CCA0054A27D /* CLVisit TYVUITests */,
+				FB09D7121C275CCA0054A27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB09D7121C275CCA0054A27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB09D7111C275CCA0054A27D /* CLVisit TYV.app */,
+				FB09D7271C275CCA0054A27D /* CLVisit TYVTests.xctest */,
+				FB09D7321C275CCA0054A27D /* CLVisit TYVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB09D7131C275CCA0054A27D /* CLVisit TYV */ = {
+			isa = PBXGroup;
+			children = (
+				FB09D7141C275CCA0054A27D /* AppDelegate.swift */,
+				FB09D7161C275CCA0054A27D /* MapViewController.swift */,
+				FB09D7181C275CCA0054A27D /* DataPointsViewController.swift */,
+				FB09D71A1C275CCA0054A27D /* Main.storyboard */,
+				FB09D71D1C275CCA0054A27D /* Assets.xcassets */,
+				FB09D71F1C275CCA0054A27D /* LaunchScreen.storyboard */,
+				FB09D7441C275FE60054A27D /* VisitModel.xcdatamodeld */,
+				FB09D7221C275CCA0054A27D /* Info.plist */,
+			);
+			path = "CLVisit TYV";
+			sourceTree = "<group>";
+		};
+		FB09D72A1C275CCA0054A27D /* CLVisit TYVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB09D72B1C275CCA0054A27D /* CLVisit_TYVTests.swift */,
+				FB09D72D1C275CCA0054A27D /* Info.plist */,
+			);
+			path = "CLVisit TYVTests";
+			sourceTree = "<group>";
+		};
+		FB09D7351C275CCA0054A27D /* CLVisit TYVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB09D7361C275CCA0054A27D /* CLVisit_TYVUITests.swift */,
+				FB09D7381C275CCA0054A27D /* Info.plist */,
+			);
+			path = "CLVisit TYVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB09D7101C275CCA0054A27D /* CLVisit TYV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB09D73B1C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYV" */;
+			buildPhases = (
+				FB09D70D1C275CCA0054A27D /* Sources */,
+				FB09D70E1C275CCA0054A27D /* Frameworks */,
+				FB09D70F1C275CCA0054A27D /* Resources */,
+				FBE86B181C3C097D00504F70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLVisit TYV";
+			productName = "CLVisit TYV";
+			productReference = FB09D7111C275CCA0054A27D /* CLVisit TYV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB09D7261C275CCA0054A27D /* CLVisit TYVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB09D73E1C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYVTests" */;
+			buildPhases = (
+				FB09D7231C275CCA0054A27D /* Sources */,
+				FB09D7241C275CCA0054A27D /* Frameworks */,
+				FB09D7251C275CCA0054A27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB09D7291C275CCA0054A27D /* PBXTargetDependency */,
+			);
+			name = "CLVisit TYVTests";
+			productName = "CLVisit TYVTests";
+			productReference = FB09D7271C275CCA0054A27D /* CLVisit TYVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB09D7311C275CCA0054A27D /* CLVisit TYVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB09D7411C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYVUITests" */;
+			buildPhases = (
+				FB09D72E1C275CCA0054A27D /* Sources */,
+				FB09D72F1C275CCA0054A27D /* Frameworks */,
+				FB09D7301C275CCA0054A27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB09D7341C275CCA0054A27D /* PBXTargetDependency */,
+			);
+			name = "CLVisit TYVUITests";
+			productName = "CLVisit TYVUITests";
+			productReference = FB09D7321C275CCA0054A27D /* CLVisit TYVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB09D7091C275CCA0054A27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Misty Periard";
+				TargetAttributes = {
+					FB09D7101C275CCA0054A27D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 72AK79RE5G;
+					};
+					FB09D7261C275CCA0054A27D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FB09D7101C275CCA0054A27D;
+					};
+					FB09D7311C275CCA0054A27D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FB09D7101C275CCA0054A27D;
+					};
+				};
+			};
+			buildConfigurationList = FB09D70C1C275CCA0054A27D /* Build configuration list for PBXProject "CLVisit TYV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB09D7081C275CCA0054A27D;
+			productRefGroup = FB09D7121C275CCA0054A27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB09D7101C275CCA0054A27D /* CLVisit TYV */,
+				FB09D7261C275CCA0054A27D /* CLVisit TYVTests */,
+				FB09D7311C275CCA0054A27D /* CLVisit TYVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB09D70F1C275CCA0054A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB09D7211C275CCA0054A27D /* LaunchScreen.storyboard in Resources */,
+				FB09D71E1C275CCA0054A27D /* Assets.xcassets in Resources */,
+				FB09D71C1C275CCA0054A27D /* Main.storyboard in Resources */,
+				FBCD3C0B1C440D8800D7957E /* com.crashlytics.missing-devices.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D7251C275CCA0054A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D7301C275CCA0054A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBE86B181C3C097D00504F70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 22e71cdba03a289737805dd6f7ddbb0bdc2a64b6 124253ebaee7ccf2c6f0ab4b499cea892fbfd78f81a4babce3b64635ed76aa0b";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB09D70D1C275CCA0054A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB09D7191C275CCA0054A27D /* DataPointsViewController.swift in Sources */,
+				FB09D7461C275FE60054A27D /* VisitModel.xcdatamodeld in Sources */,
+				FB09D7151C275CCA0054A27D /* AppDelegate.swift in Sources */,
+				FB09D7481C2760EF0054A27D /* Visit+CoreDataProperties.swift in Sources */,
+				FB09D7171C275CCA0054A27D /* MapViewController.swift in Sources */,
+				FB09D74A1C2760FC0054A27D /* Visit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D7231C275CCA0054A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB09D72C1C275CCA0054A27D /* CLVisit_TYVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB09D72E1C275CCA0054A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB09D7371C275CCA0054A27D /* CLVisit_TYVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB09D7291C275CCA0054A27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB09D7101C275CCA0054A27D /* CLVisit TYV */;
+			targetProxy = FB09D7281C275CCA0054A27D /* PBXContainerItemProxy */;
+		};
+		FB09D7341C275CCA0054A27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB09D7101C275CCA0054A27D /* CLVisit TYV */;
+			targetProxy = FB09D7331C275CCA0054A27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB09D71A1C275CCA0054A27D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB09D71B1C275CCA0054A27D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB09D71F1C275CCA0054A27D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB09D7201C275CCA0054A27D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB09D7391C275CCA0054A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB09D73A1C275CCA0054A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB09D73C1C275CCA0054A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CLVisit TYV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB09D73D1C275CCA0054A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CLVisit TYV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB09D73F1C275CCA0054A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CLVisit TYVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLVisit TYV.app/CLVisit TYV";
+			};
+			name = Debug;
+		};
+		FB09D7401C275CCA0054A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CLVisit TYVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLVisit TYV.app/CLVisit TYV";
+			};
+			name = Release;
+		};
+		FB09D7421C275CCA0054A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CLVisit TYVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CLVisit TYV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB09D7431C275CCA0054A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CLVisit TYVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UniversityOfMichigan.CLVisit-TYVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CLVisit TYV";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB09D70C1C275CCA0054A27D /* Build configuration list for PBXProject "CLVisit TYV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09D7391C275CCA0054A27D /* Debug */,
+				FB09D73A1C275CCA0054A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB09D73B1C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09D73C1C275CCA0054A27D /* Debug */,
+				FB09D73D1C275CCA0054A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB09D73E1C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09D73F1C275CCA0054A27D /* Debug */,
+				FB09D7401C275CCA0054A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB09D7411C275CCA0054A27D /* Build configuration list for PBXNativeTarget "CLVisit TYVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB09D7421C275CCA0054A27D /* Debug */,
+				FB09D7431C275CCA0054A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB09D7441C275FE60054A27D /* VisitModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB09D7451C275FE60054A27D /* VisitModel.xcdatamodel */,
+			);
+			currentVersion = FB09D7451C275FE60054A27D /* VisitModel.xcdatamodel */;
+			name = VisitModel.xcdatamodeld;
+			path = ../VisitModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB09D7091C275CCA0054A27D /* Project object */;
+}
