@@ -1,2 +1,0 @@
-Device ID	Device Name
-6e04f928dbd1bc05e40985cca77389af8ff0adb9	Hannah Westra - iPhone 6
